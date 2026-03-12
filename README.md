@@ -105,7 +105,7 @@ Top label: 2 | True label: 3
 ```
 
 The output is **not NaN or Inf** so it is numerically valid but wrong. The values resemble
-a plausible probability distribution, but the argmax points to the wrong class. This is
+a plausible probability distribution, but the argmax points to the wrong class.
 This suggests the model is computing but producing systematically wrong results,
 rather than failing due to numerical corruption.
 
